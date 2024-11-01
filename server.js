@@ -51,7 +51,5 @@ app.delete(rota + "/:id", async (req, res) => {
   res.status(204).end();
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+
 
