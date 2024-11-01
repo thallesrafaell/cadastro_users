@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch server.js",
+    "build": "prisma generate && vercel-build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
